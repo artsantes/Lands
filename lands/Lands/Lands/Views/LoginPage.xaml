@@ -44,7 +44,7 @@
                     Grid.Row="1"
                     Grid.Column="1"
                     IsPassword="True"
-                    Placeholder="Enter your password.....">
+                    Placeholder="Enter your password...">
                 </Entry>
             </Grid>
             
