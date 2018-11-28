@@ -8,12 +8,13 @@
         <ScrollView>
             
         <StackLayout Padding="10,20,10,5">
-            <Label 
+           <!-- <Label 
                 FontAttributes="Bold"
                 FontSize="Large" 
                 HorizontalOptions="Center"
                 Text="">
-            </Label>
+            </Label>-->
+            
             <Image
                 Source="logo"
                 WidthRequest="200">               
@@ -27,7 +28,8 @@
                 <Label 
                     Grid.Row="0"
                     Grid.Column="0"
-                    Text="E-Mail">
+                    Text="E-Mail"
+                    VerticalOptions="Center">
                 </Label>
                 <Entry
                     Grid.Row="0"
@@ -73,11 +75,13 @@
            
             
             <StackLayout
-                Margin="40,0">
+                Margin="40,10"
+                Orientation="Horizontal">
             <Button
                 BackgroundColor="Navy"
                 BorderRadius="23"
                 HeightRequest="46"
+                HorizontalOptions="FillAndExpand"
                 Text="Login"
                 TextColor="White"
                 >
@@ -87,6 +91,7 @@
                 BackgroundColor="Purple"
                 BorderRadius="23"
                 HeightRequest="46"
+                HorizontalOptions="FillAndExpand"
                 Text="Register"
                 TextColor="White"
                 >
