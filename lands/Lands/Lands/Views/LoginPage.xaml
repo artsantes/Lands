@@ -20,7 +20,8 @@
                 WidthRequest="200">               
             </Image>
             <Grid
-                Margin="0,20">
+                Margin="0,20"
+                VerticalOptions="CenterAndExpand">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="2*"/>
@@ -50,12 +51,14 @@
                 </Entry>
             </Grid>
             
-            <ActivityIndicator>
+            <ActivityIndicator
+                VerticalOptions="CenterAndExpand" >
                 
             </ActivityIndicator>
 
             <StackLayout
-                Orientation="Horizontal">
+                Orientation="Horizontal"
+                VerticalOptions="CenterAndExpand">
                 <Label
                     HorizontalOptions="StartAndExpand"
                     Text="Remember on this device"
@@ -69,14 +72,16 @@
                 <Label
                     HorizontalOptions="Center"
                     Text="Forgot your password?"
-                    TextColor="Blue">
+                    TextColor="Blue"
+                    VerticalOptions="CenterAndExpand">
                 </Label>
 
            
             
             <StackLayout
                 Margin="40,10"
-                Orientation="Horizontal">
+                Orientation="Horizontal"
+                VerticalOptions="CenterAndExpand">
             <Button
                 BackgroundColor="Navy"
                 BorderRadius="23"
@@ -99,7 +104,8 @@
             </StackLayout>
             <StackLayout
                 HorizontalOptions="Center" 
-                Orientation="Horizontal">
+                Orientation="Horizontal"
+                VerticalOptions="EndAndExpand">
                 <Image
                     Source="logofacebook"
                     WidthRequest="100">
